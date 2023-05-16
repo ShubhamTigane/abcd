@@ -1,0 +1,22 @@
+
+sudo apt install
+
+sudo apt-get update 
+
+sudo apt install docker.io
+
+git clone <git link.git>
+
+ls
+
+cd iacsdmarch23
+
+ls
+
+sudo docker build -t iacsd .
+
+sudo docker images
+
+sudo docker run -d -p 8081:8081 iacsd
+
+sudo docker ps
